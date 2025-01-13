@@ -26,6 +26,8 @@ jobs:
         with:
           version: 8
           run_install: false
+      - name: Authenticate with npm
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > ~/.npmrc
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Build
