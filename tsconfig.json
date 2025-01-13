@@ -1,6 +1,7 @@
 {
   "include": ["src/**/*"],
   "compilerOptions": {
+    "jsx": "react-jsx",
     "declaration": true,
     "declarationDir": "./types",
     "emitDeclarationOnly": true,
