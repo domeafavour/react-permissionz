@@ -1,6 +1,6 @@
 {
   "name": "react-permissionz",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "create react permissions components and hooks",
   "types": ".dist/index.d.ts",
   "main": ".dist/index.js",
